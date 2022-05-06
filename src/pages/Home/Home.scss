@@ -1,3 +1,29 @@
 .spacex {
-    color: rgb(206, 206, 206);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .header{
+        color: rgb(206, 206, 206);
+    }
+
+    .launch-name {
+        color: rgb(112, 142, 240);
+    }
+
+    .link-spacex {
+        margin-top: 0.8em;
+        // color: rgb(226, 226, 226);
+    }
+
+    .spacexlink {
+        color: #e2e2e2;
+    }
+
+    .spacexlink:visited {
+        color: #e2e2e2;
+    }
+
+    .spacexlink:hover {
+        color: #57d57f;
+    }
 }

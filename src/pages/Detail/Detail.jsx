@@ -26,10 +26,17 @@ function Detail() {
 	})
 
 	return (
-		<div>
-			<h1 className="spacex">{launch.name}</h1>
+		<div className="spacex">
+			<h1 className="spacex-header">{launch.name}</h1>
 			<p>Date UTC: {launch.date_utc}</p>
-			<p>Launch Details: {launch.details}</p>
+			<p>
+				Details:
+				{launch.details ? (
+					<span> {launch.details}</span>
+				) : (
+					<span> No details available.</span>
+				)}
+			</p>
 			<p>{launch.reused ? <p>Reused: True</p> : <p>Reused: False</p>}</p>
 		</div>
 	)

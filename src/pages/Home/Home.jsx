@@ -33,8 +33,8 @@ function Home() {
 	})
 
 	return (
-		<div>
-			<h1 className="spacex">SpaceX Launchpads</h1>
+		<div className="spacex">
+			<h1 className="header">SpaceX Launchpads</h1>
 			<ul>
 				{launchpads.map((launchpad) => {
 					return (
@@ -52,11 +52,11 @@ function Home() {
 							<ul>
 								{launchpad.launches.map((launch) => {
 									return (
-										<li key={launch}>
+										<li key={launch} className="link-spacex">
 											{launch === 'No launches' ? (
 												<p>{launch}</p>
 											) : (
-												<Link to={`/detail/${launch}`}>{launch}</Link>
+												<Link className='spacexlink' to={`/detail/${launch}`}>{launch}</Link>
 											)}
 										</li>
 									)
