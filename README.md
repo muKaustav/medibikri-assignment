@@ -29,15 +29,14 @@
   - Reused
 
   <br/>
-  
+
 ## 📺 | Demonstration
 
 <p align = center>
     
-![trim](https://user-images.githubusercontent.com/50882624/154680953-a41c84e3-6512-4fdf-8b3c-b8856f3c5842.gif)
+![trim](https://github.com/muKaustav/medibikri-assignment/blob/main/src/assets/2022-05-06%2020-56-42_Trim.mp4)
 
 </p>
-
 
 ## 🧑🏽 | Author
 
