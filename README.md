@@ -1,8 +1,5 @@
 # Medibikri Assignment
 
-<h1 align="center">Medibikri Assignment</h1>
-<br/>
-
 ## 📚 | Problem Statement
 
 - Building a 2-page mobile application in react-native using SpaceX APIs.
@@ -34,7 +31,7 @@
 
 <p align = center>
     
-![trim](https://github.com/muKaustav/medibikri-assignment/blob/main/src/assets/2022-05-06%2020-56-42_Trim.mp4)
+![trim](https://github.com/muKaustav/medibikri-assignment/blob/main/src/assets/medibikri.gif)
 
 </p>
 
